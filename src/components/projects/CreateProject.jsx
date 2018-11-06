@@ -15,6 +15,7 @@ class CreateProject extends Component {
   }
   handleSubmit = (e) => {
     e.preventDefault();
+    //this uses the action represented by the projectActions.jsx and dispatches that action the projectReducer jsx component
     this.props.createProject(this.state)
   }
 
@@ -42,6 +43,7 @@ class CreateProject extends Component {
 
 const mapDispatchToProps = (dispatch) => {
   return {
+    //createProject is the name of the action represented by the projectAction jsx file
     createProject: (project) => dispatch(createProject(project))
   }
 }

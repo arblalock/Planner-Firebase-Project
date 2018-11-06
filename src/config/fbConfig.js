@@ -1,5 +1,5 @@
 import firebase from 'firebase/app'
-import 'firbase/firestore'
+import 'firebase/firestore'
 import 'firebase/auth'
 
 

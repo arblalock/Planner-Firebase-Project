@@ -1,1 +1,1 @@
-Firebase React/Redux project, following tutorial by The Net Ninja - https://www.thenetninja.co.uk/ 
+Firebase React/Redux project, following an awesome tutorial by The Net Ninja - https://www.thenetninja.co.uk/ 

@@ -1,3 +1,7 @@
+//this is where you can handle events that need to be 'pushed' from the server to the app
+//for example, you can notify someone in realtime on the frontend app if someone edited a particular
+//document in the firestore database
+
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp(functions.config().firebase)

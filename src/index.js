@@ -1,3 +1,10 @@
+//npm start -to run app locally
+//npm run build -creates a react production build
+//npm firebase deploy -deploys up to firebase where it can be hosted
+
+//the /functions directory is where server-side firebase functions can be added and pushed to the firebase server
+//using firebase deploy --only functions
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
